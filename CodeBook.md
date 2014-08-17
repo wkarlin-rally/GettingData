@@ -1,5 +1,10 @@
 ##Code Book (modified from features_info.txt file included with the raw data)
-79 total variables
+
+subject: a number identifying the study participant (1-30)
+
+activity: one of six activities studied: Laying, Sitting, Standing, Walking, Walking_Down(stairs), Walking_Up(stairs)
+
+79 total variables measuring various outputs of the smartphone accelerometer
 
 variables starting with a "t" are time-domain signals, and if starting with a "f", frequency-domain signals
 
