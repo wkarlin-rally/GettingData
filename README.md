@@ -20,7 +20,7 @@ To check the results, it can be read into R using the following command:
 check <- read.table(file = "finalfile.txt", header = TRUE)
 
 ##Code Book (modified from features_info.txt file included with the raw data)
-79 total variables
+79 total variables -- 
 variables starting with a "t" are time-domain signals, and if starting with a "f", frequency-domain signals
 variables ending with "XYZ" are actually three separate variables, one each for X, Y, and Z.
 "mean" within the variable name refers to the average of that variable 
